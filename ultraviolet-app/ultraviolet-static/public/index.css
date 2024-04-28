@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    background-color: #111;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    background-image: url('https://github.com/ClarrieO5/photo/blob/main/A%20futuristic%20ci%2076ad2c1f-f89a-4eaf-9b18-1d69bb1b67d6.png?raw=true');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 5em;
+    margin-bottom: 30px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.discord-link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #7289da;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.desc {
+    color: #fff;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#uv-address {
+    padding: 10px;
+    width: 60%;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    margin-right: 5px;
+    box-sizing: border-box;
+}
+
+#uv-form {
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #7289da;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer div a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    border-bottom: 1px solid #fff;
+}
+
+footer > div:last-child {
+    margin-top: 10px;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: -1;
+}
+
