@@ -30,13 +30,15 @@
         overflow-x: hidden;
         background-color: #111;
         color: #fff;
-        height: 100vh; /* Adjusted height */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
     }
 
 .container {
-    width: 90%; /* Adjusted width */
-    max-width: 800px; /* Max width */
-    margin: 0 auto; /* Center the container */
+    width: 90%;
+    max-width: 800px;
     text-align: center;
     position: relative;
     background-image: url('A futuristic ci 76ad2c1f-f89a-4eaf-9b18-1d69bb1b67d6.png');
@@ -50,10 +52,9 @@
 
 .container img {
     position: absolute;
-    top: 20px; /* Adjusted top position */
-    left: 50%; /* Center the logo horizontally */
-    transform: translateX(-50%); /* Adjusted for centering */
-    width: 80px; /* Adjusted width */
+    top: 20px;
+    left: 20px;
+    width: 40px;
     height: auto;
 }
 
@@ -86,8 +87,8 @@ h1 {
 
 #uv-address {
     padding: 10px;
-    width: 80%; /* Adjusted width */
-    max-width: 400px; /* Max width */
+    width: 80%;
+    max-width: 400px;
     border-radius: 25px;
     border: none;
     font-size: 16px;
@@ -98,7 +99,8 @@ h1 {
 #uv-form {
     margin-top: 20px;
     display: flex;
-    justify-content: center; /* Center the form horizontally */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
 
 input[type="submit"] {
@@ -158,10 +160,9 @@ footer > div:last-child {
             'params' : {}
         };
     </script>
-    <script type='text/javascript' src='//pl23271633.highcpmgate.com/c5/bb/75/c5bb7574d3542e632c623e7696b06c54.js'></script>
+    <script type="text/javascript" src="//www.topcreativeformat.com/5ae89674ecae6055b904cff1c662ec67/invoke.js"></script>
 </head>
 <body>
-    <script type="text/javascript" src="//www.topcreativeformat.com/5ae89674ecae6055b904cff1c662ec67/invoke.js"></script>
 <div id="particles-js"></div> <!-- Particle container -->
 <div class="container">
   <img src="solstice.png" alt="Solstice Logo">
@@ -296,27 +297,6 @@ footer > div:last-child {
         },
         "retina_detect": true
     });
-
-    document.getElementById("uv-form").addEventListener("submit", function(event) {
-        event.preventDefault();
-        var searchText = document.getElementById("uv-address").value;
-        if (isValidURL(searchText)) {
-            window.location.href = __uv$config.prefix + __uv$config.encodeUrl(searchText.startsWith("http") ? searchText : "https://" + searchText)
-        } else {
-            var searchEngine = document.getElementById("uv-search-engine").value;
-            var searchUrl = searchEngine.replace("%s", encodeURIComponent(searchText));
-            window.location.href = __uv$config.prefix + __uv$config.encodeUrl(searchUrl);
-        }
-    });
-
-    function isValidURL(string) {
-        try {
-            new URL(string);
-        } catch (_) {
-            return false;
-        }
-        return true;
-    }
 </script>
 </body>
 </html>
