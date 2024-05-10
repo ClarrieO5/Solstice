@@ -18,8 +18,6 @@
     <script src="search.js" defer></script>
     <script src="index.js" defer></script>
     <script type="application/ld+json"></script>
-    <script type='text/javascript' src='//pl23266038.highcpmgate.com/e5/ae/33/e5ae339d2b64a164639ed1a4e6ab5867.js'></script>
-    <script type='text/javascript' src='//pl23266033.highcpmgate.com/9b/8b/44/9b8b44dd866f7cd7c4c828ef8d47b651.js'></script>
     <style>
     * {
         margin: 0;
@@ -32,15 +30,11 @@
         overflow-x: hidden;
         background-color: #111;
         color: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
     }
 
 .container {
-    width: 90%;
-    max-width: 800px;
+    width: 60%; /* Adjusted width */
+    margin: 100px auto;
     text-align: center;
     position: relative;
     background-image: url('A futuristic ci 76ad2c1f-f89a-4eaf-9b18-1d69bb1b67d6.png');
@@ -52,12 +46,16 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
+}
+
 .container img {
     position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 30px;
+    bottom: 250px;
+    right: 1500px;
+    width: 50px;
     height: auto;
+}
+
 }
 
 h1 {
@@ -89,8 +87,7 @@ h1 {
 
 #uv-address {
     padding: 10px;
-    width: 80%;
-    max-width: 400px;
+    width: 60%;
     border-radius: 25px;
     border: none;
     font-size: 16px;
@@ -100,9 +97,6 @@ h1 {
 
 #uv-form {
     margin-top: 20px;
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
 }
 
 input[type="submit"] {
@@ -152,11 +146,14 @@ footer > div:last-child {
     z-index: -1;
 }
     </style>
+    <!-- Script tag for ad -->
+<script type='text/javascript' src='//pl23266038.highcpmgate.com/e5/ae/33/e5ae339d2b64a164639ed1a4e6ab5867.js'></script>
+<script type='text/javascript' src='//pl23266033.highcpmgate.com/9b/8b/44/9b8b44dd866f7cd7c4c828ef8d47b651.js'></script>
 </head>
 <body>
 <div id="particles-js"></div> <!-- Particle container -->
 <div class="container">
-    <img src="solstice.png" alt="Solstice Logo">
+  <img src="solstice.png" alt="Solstice Logo">
     <h1>Solstice</h1>
     <a class="discord-link" href="https://discord.gg/solstice" target="_blank">Join our Discord</a>
     <div class="desc">Free Web Proxy</div>
@@ -165,7 +162,6 @@ footer > div:last-child {
         <input id="uv-address" type="text" placeholder="Search with UV">
         <input type="submit" value="Go">
     </form>
-    <iframe style="display: none;" id="uv-frame"></iframe> <!-- Added iframe element -->
 </div>
 <footer>
     <div>
@@ -289,6 +285,27 @@ footer > div:last-child {
         },
         "retina_detect": true
     });
+
+    document.getElementById("uv-form").addEventListener("submit", function(event) {
+        event.preventDefault();
+        var searchText = document.getElementById("uv-address").value;
+        if (isValidURL(searchText)) {
+            window.location.href = __uv$config.prefix + __uv$config.encodeUrl(searchText.startsWith("http") ? searchText : "https://" + searchText)
+        } else {
+            var searchEngine = document.getElementById("uv-search-engine").value;
+            var searchUrl = searchEngine.replace("%s", encodeURIComponent(searchText));
+            window.location.href = __uv$config.prefix + __uv$config.encodeUrl(searchUrl);
+        }
+    });
+
+    function isValidURL(string) {
+        try {
+            new URL(string);
+        } catch (_) {
+            return false;
+        }
+        return true;
+    }
 </script>
 </body>
 </html>
