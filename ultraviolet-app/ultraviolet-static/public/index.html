@@ -320,8 +320,11 @@ footer > div:last-child {
     }
 
 function launchAboutBlank() {
-    var siteURL = window.location.href;
-    var newTab = window.open(siteURL, "_blank");
+    var newTab = window.open("about:blank", "_blank");
+    if (newTab) {
+        newTab.location.href = window.location.href;
+    } else {
+        alert("Popup blocked. Please allow popups for this site.");
 }
 </script>
 </body>
