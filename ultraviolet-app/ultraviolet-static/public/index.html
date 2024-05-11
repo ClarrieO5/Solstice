@@ -109,6 +109,18 @@ input[type="submit"] {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+button[type="button"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+}
+
 footer {
     position: fixed;
     bottom: 0;
@@ -161,6 +173,7 @@ footer > div:last-child {
         <input id="uv-address" type="text" placeholder="Search with UV">
         <input type="submit" value="Go">
     </form>
+    <button type="button" onclick="launchAboutBlank()">Launch in about:blank</button>
 </div>
 <footer>
     <div>
@@ -304,6 +317,10 @@ footer > div:last-child {
             return false;
         }
         return true;
+    }
+
+    function launchAboutBlank() {
+        window.open("about:blank", "_blank");
     }
 </script>
 </body>
