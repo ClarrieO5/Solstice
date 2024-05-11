@@ -318,13 +318,9 @@ footer > div:last-child {
         }
         return true;
     }
-
 function launchAboutBlank() {
-    var newTab = window.open("about:blank", "_blank");
-    if (newTab) {
-        newTab.location.href = window.location.href;
-    } else {
-        alert("Popup blocked. Please allow popups for this site.");
+    var siteURL = window.location.href;
+    var newTab = window.open(siteURL, "_blank");
 }
 </script>
 </body>
