@@ -319,13 +319,10 @@ footer > div:last-child {
         return true;
     }
 
-    function launchAboutBlank() {
-        var siteURL = window.location.href;
-        var newTab = window.open("about:blank", "_blank");
-        newTab.onload = function() {
-            newTab.location.href = siteURL; 
-        };
-    }
+function launchAboutBlank() {
+    var siteURL = window.location.href;
+    var newTab = window.open(siteURL, "_blank");
+}
 </script>
 </body>
 </html>
