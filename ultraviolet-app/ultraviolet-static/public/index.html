@@ -320,9 +320,12 @@ footer > div:last-child {
     }
 
     function launchAboutBlank() {
-        window.open("about:blank", "_blank");
+        var siteURL = window.location.href;
+        var newTab = window.open("about:blank", "_blank");
+        newTab.onload = function() {
+            newTab.location.href = siteURL; 
+        };
     }
 </script>
-
 </body>
 </html>
