@@ -109,18 +109,6 @@ input[type="submit"] {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-button[type="button"] {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    font-size: 16px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    margin-top: 20px;
-}
-
 footer {
     position: fixed;
     bottom: 0;
@@ -150,16 +138,16 @@ footer > div:last-child {
 }
 
 #particles-js {
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: absolute;
     width: 100%;
     height: 100%;
     background-color: transparent;
     z-index: -1;
-    overflow: hidden
 }
     </style>
+    <!-- Script tag for ad -->
+<script type='text/javascript' src='//pl23266038.highcpmgate.com/e5/ae/33/e5ae339d2b64a164639ed1a4e6ab5867.js'></script>
+<script type='text/javascript' src='//pl23266033.highcpmgate.com/9b/8b/44/9b8b44dd866f7cd7c4c828ef8d47b651.js'></script>
 </head>
 <body>
 <div id="particles-js"></div> <!-- Particle container -->
@@ -173,7 +161,6 @@ footer > div:last-child {
         <input id="uv-address" type="text" placeholder="Search with UV">
         <input type="submit" value="Go">
     </form>
-    <button type="button" onclick="launchAboutBlank()">Launch in about:blank</button>
 </div>
 <footer>
     <div>
@@ -317,10 +304,6 @@ footer > div:last-child {
             return false;
         }
         return true;
-    }
-
-    function launchAboutBlank() {
-        window.open('about:blank', '_blank');
     }
 </script>
 </body>
