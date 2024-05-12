@@ -160,7 +160,105 @@ footer > div:last-child {
         <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden">
         <input id="uv-address" type="text" placeholder="Search with UV">
         <input type="submit" value="Go">
+
     </form>
+    <a style="color: white; font-size: 20px;" href="javascript:createRoundedWindow()">Settings</a>
+<script>
+ function createRoundedWindow() {
+    var roundedWindow = document.createElement('div');
+    roundedWindow.id = 'roundedWindow';
+    roundedWindow.style.position = 'fixed';
+    roundedWindow.style.top = '50%';
+    roundedWindow.style.left = '50%';
+    roundedWindow.style.transform = 'translate(-50%, -50%)';
+    roundedWindow.style.backgroundColor = '#f2f2f2';
+    roundedWindow.style.borderRadius = '20px';
+    roundedWindow.style.boxShadow = '0px 0px 20px 0px rgba(0,0,0,0.75)';
+    roundedWindow.style.width = '500px'; // Set the width of the window
+    roundedWindow.style.height = '300px'; // Set the height of the window
+    roundedWindow.style.zIndex = '9999'; // Set a high z-index to make sure it's on top
+    var header = document.createElement('div');
+    header.id = 'header';
+    header.style.backgroundColor = '#ccc';
+    header.style.borderTopLeftRadius = '20px';
+    header.style.borderTopRightRadius = '20px';
+    header.style.padding = '20px';
+    header.style.textAlign = 'right';
+    var closeButton = document.createElement('span');
+    closeButton.id = 'closeButton';
+    closeButton.style.cursor = 'pointer';
+    closeButton.textContent = 'x';
+    header.appendChild(closeButton);
+    var content = document.createElement('div');
+    content.id = 'content';
+    content.style.padding = '20px';
+    var paragraph = document.createElement('p');
+    paragraph.textContent = 'Tab Cloak:';
+    paragraph.style = "color:black;"
+    content.appendChild(paragraph);
+    var button1 = document.createElement('button');
+    button1.textContent = 'Google Drive';
+    button1.setAttribute("onclick", "gdrive()")
+    var button2 = document.createElement('button');
+    button2.textContent = 'Gmail';
+    button2.style = "margin-left: 5px;"
+    button2.setAttribute("onclick", "gmail()")
+    var button3 = document.createElement('button');
+    button3.textContent = 'Google Classroom';
+    button3.style = "margin-left: 5px;"
+    button3.setAttribute("onclick", "gclass()")
+    var button5 = document.createElement('button');
+    button5.textContent = 'Google Docs';
+    button5.style = "margin-left: 5px;"
+    button5.setAttribute("onclick", "gdocs()")
+    content.appendChild(button1);
+    content.appendChild(button2);
+    content.appendChild(button3);
+    content.appendChild(button5);
+    roundedWindow.appendChild(header);
+    roundedWindow.appendChild(content);
+    document.body.appendChild(roundedWindow);
+    closeButton.addEventListener('click', function() {
+        document.body.removeChild(roundedWindow);
+    });
+}
+function gmail() {
+    var l = document.querySelector("link[rel*='icon']") || document.createElement('link');
+    l.type = 'image/x-icon';
+    l.rel = 'shortcut icon';
+    l.href = 'https://www.google.com/a/cpanel/jedfonner.com/images/favicon.ico';
+    document.getElementsByTagName('head')[0].appendChild(l);
+    document.title = 'Inbox';
+}
+function gdrive() {
+    var l = document.querySelector("link[rel*='icon']") || document.createElement('link');
+    l.type = 'image/x-icon';
+    l.rel = 'shortcut icon';
+    l.href = 'https://ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png';
+    document.getElementsByTagName('head')[0].appendChild(l);
+    document.title = 'Google Drive';
+}
+function gclass() {
+    var l = document.querySelector("link[rel*='icon']") || document.createElement('link');
+    l.type = 'image/x-icon';
+    l.rel = 'shortcut icon';
+    l.href = 'https://ssl.gstatic.com/classroom/ic_product_classroom_32.png';
+    document.getElementsByTagName('head')[0].appendChild(l);
+    document.title = 'Home';
+}
+function gdocs() {
+    var l = document.querySelector("link[rel*='icon']") || document.createElement('link');
+    l.type = 'image/x-icon';
+    l.rel = 'shortcut icon';
+    l.href = 'https://ssl.gstatic.com/docs/documents/images/kix-favicon-2023q4.ico';
+    document.getElementsByTagName('head')[0].appendChild(l);
+    document.title = 'Untitled document - Google Docs';
+}
+
+
+
+</script>
+
 </div>
 <footer>
     <div>
