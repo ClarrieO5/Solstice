@@ -1,0 +1,18 @@
+○ caddy.service - Caddy
+     Loaded: loaded (/lib/systemd/system/caddy.service; enabled; vendor preset: enabled)
+     Active: inactive (dead) since Mon 2024-05-20 02:14:34 EDT; 3min 1s ago
+       Docs: https://caddyserver.com/docs/
+    Process: 31151 ExecStart=/usr/bin/caddy run --environ --config /etc/caddy/Caddyfile (code=exited, status=0/SUCCESS)
+   Main PID: 31151 (code=exited, status=0/SUCCESS)
+        CPU: 293ms
+
+May 20 02:13:03 iconically caddy[31151]: {"level":"warn","ts":1716185583.536155,"logger":"tls","msg":"storage cleaning happened too recently; skipping for now","storage":"FileStorage:/var/lib/caddy/.local/share/caddy","instance":"bf290863-ad49-4bbd-9f0f-ce4e747e9c61","try_again":1716271983.5360372,"try_again_in":86399.999999045}
+May 20 02:13:03 iconically caddy[31151]: {"level":"info","ts":1716185583.5365496,"logger":"tls","msg":"finished cleaning storage units"}
+May 20 02:14:34 iconically systemd[1]: Stopping Caddy...
+May 20 02:14:34 iconically caddy[31151]: {"level":"info","ts":1716185674.1875322,"msg":"shutting down apps, then terminating","signal":"SIGTERM"}
+May 20 02:14:34 iconically caddy[31151]: {"level":"warn","ts":1716185674.1876414,"msg":"exiting; byeee!! 👋","signal":"SIGTERM"}
+May 20 02:14:34 iconically caddy[31151]: {"level":"info","ts":1716185674.1877544,"logger":"http","msg":"servers shutting down with eternal grace period"}
+May 20 02:14:34 iconically caddy[31151]: {"level":"info","ts":1716185674.1879733,"logger":"admin","msg":"stopped previous server","address":"localhost:2019"}
+May 20 02:14:34 iconically caddy[31151]: {"level":"info","ts":1716185674.1879954,"msg":"shutdown complete","signal":"SIGTERM","exit_code":0}
+May 20 02:14:34 iconically systemd[1]: caddy.service: Deactivated successfully.
+May 20 02:14:34 iconically systemd[1]: Stopped Caddy.
