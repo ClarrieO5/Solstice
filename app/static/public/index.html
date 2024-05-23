@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type='text/javascript' src='//pl23266038.highcpmgate.com/e5/ae/33/e5ae339d2b64a164639ed1a4e6ab5867.js'></script>
+    <script type='text/javascript' src='//pl23266033.highcpmgate.com/9b/8b/44/9b8b44dd866f7cd7c4c828ef8d47b651.js'></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Solstice - Free Frontend Proxy</title>
+    <meta name="description" content="Solstice: Your free, fast, and secure web proxy solution. Bypass restrictions and surf the internet anonymously with ease. Experience unrestricted access to your favorite content, anytime, anywhere.">
+    <meta name="keywords" content="proxy, web proxy, solstice, service workers, unblock websites, unblock chromebook, free web proxy, proxy list, proxy sites, un block chromebook, online proxy, proxy server, p">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#434c5e">
+    <meta name="googlebot" content="index, follow, snippet">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/ClarrieO5/photo/main/favicon%20(2).ico">
+    <link rel="stylesheet" href="index.css">
+    <script src="epoxy/index.js" defer></script>
+    <script src="uv/uv.bundle.js" defer></script>
+    <script src="uv/uv.config.js" defer></script>
+    <script src="register-sw.js" defer></script>
+    <script src="search.js" defer></script>
+    <script src="index.js" defer></script>
+    <script type="application/ld+json"></script>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background-color: #111;
+        color: #fff;
+    }
+
+.container {
+    width: 80%;
+    margin: 200px auto;
+    text-align: center;
+    position: relative;
+    background-image: url('A futuristic ci 76ad2c1f-f89a-4eaf-9b18-1d69bb1b67d6.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.container img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: auto;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.discord-link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #7289da;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.desc {
+    color: #fff;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#uv-address {
+    padding: 10px;
+    width: 60%;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    margin-right: 5px;
+    box-sizing: border-box;
+}
+
+#uv-form {
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #7289da;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer div a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    border-bottom: 1px solid #fff;
+}
+
+footer > div:last-child {
+    margin-top: 10px;
+}
+
+#particles-js {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: -1;
+    overflow: hidden; 
+}
+    </style>
+</head>
+<body>
+<div id="particles-js"></div> <!-- Particle container -->
+<div class="container">
+  <img src="solstice.png" alt="Solstice Logo">
+    <h1>Solstice</h1>
+    <a class="discord-link" href="https://discord.gg/solstice" target="_blank">Join our Discord</a>
+    <div class="desc">Free Web Proxy</div>
+    <form id="uv-form" class="flex-center">
+        <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden">
+        <input id="uv-address" type="text" placeholder="Search with UV">
+        <input type="submit" value="Go">
+
+    </form>
+    <a style="color: white; font-size: 20px;" href="javascript:createRoundedWindow()">Settings</a>
+<script>
+ function createRoundedWindow() {
+    var roundedWindow = document.createElement('div');
+    roundedWindow.id = 'roundedWindow';
+    roundedWindow.style.position = 'fixed';
+    roundedWindow.style.top = '50%';
+    roundedWindow.style.left = '50%';
+    roundedWindow.style.transform = 'translate(-50%, -50%)';
+    roundedWindow.style.backgroundColor = '#f2f2f2';
+    roundedWindow.style.borderRadius = '20px';
+    roundedWindow.style.boxShadow = '0px 0px 20px 0px rgba(0,0,0,0.75)';
+    roundedWindow.style.width = '500px'; // Set the width of the window
+    roundedWindow.style.height = '300px'; // Set the height of the window
+    roundedWindow.style.zIndex = '9999'; // Set a high z-index to make sure it's on top
+    var header = document.createElement('div');
+    header.id = 'header';
+    header.style.backgroundColor = '#ccc';
+    header.style.borderTopLeftRadius = '20px';
+    header.style.borderTopRightRadius = '20px';
+    header.style.padding = '20px';
+    header.style.textAlign = 'right';
+    var closeButton = document.createElement('span');
+    closeButton.id = 'closeButton';
+    closeButton.style.cursor = 'pointer';
+    closeButton.textContent = 'x';
+    header.appendChild(closeButton);
+    var content = document.createElement('div');
+    content.id = 'content';
+    content.style.padding = '20px';
+    var paragraph = document.createElement('p');
+    paragraph.textContent = 'Tab Cloak:';
+    paragraph.style = "color:black;"
+    content.appendChild(paragraph);
+    var button1 = document.createElement('button');
+    button1.textContent = 'Google Drive';
+    button1.setAttribute("onclick", "gdrive()")
+    var button2 = document.createElement('button');
+    button2.textContent = 'Gmail';
+    button2.style = "margin-left: 5px;"
+    button2.setAttribute("onclick", "gmail()")
+    var button3 = document.createElement('button');
+    button3.textContent = 'Google Classroom';
+    button3.style = "margin-left: 5px;"
+    button3.setAttribute("onclick", "gclass()")
+    var button5 = document.createElement('button');
+    button5.textContent = 'Google Docs';
+    button5.style = "margin-left: 5px;"
+    button5.setAttribute("onclick", "gdocs()")
+    content.appendChild(button1);
+    content.appendChild(button2);
+    content.appendChild(button3);
+    content.appendChild(button5);
+    roundedWindow.appendChild(header);
+    roundedWindow.appendChild(content);
+    document.body.appendChild(roundedWindow);
+    closeButton.addEventListener('click', function() {
+        document.body.removeChild(roundedWindow);
+    });
+}
+function gmail() {
+    var l = document.querySelector("link[rel*='icon']") || document.createElement('link');
+    l.type = 'image/x-icon';
+    l.rel = 'shortcut icon';
+    l.href = 'https://www.google.com/a/cpanel/jedfonner.com/images/favicon.ico';
+    document.getElementsByTagName('head')[0].appendChild(l);
+    document.title = 'Inbox';
+}
+function gdrive() {
+    var l = document.querySelector("link[rel*='icon']") || document.createElement('link');
+    l.type = 'image/x-icon';
+    l.rel = 'shortcut icon';
+    l.href = 'https://ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png';
+    document.getElementsByTagName('head')[0].appendChild(l);
+    document.title = 'Google Drive';
+}
+function gclass() {
+    var l = document.querySelector("link[rel*='icon']") || document.createElement('link');
+    l.type = 'image/x-icon';
+    l.rel = 'shortcut icon';
+    l.href = 'https://ssl.gstatic.com/classroom/ic_product_classroom_32.png';
+    document.getElementsByTagName('head')[0].appendChild(l);
+    document.title = 'Home';
+}
+function gdocs() {
+    var l = document.querySelector("link[rel*='icon']") || document.createElement('link');
+    l.type = 'image/x-icon';
+    l.rel = 'shortcut icon';
+    l.href = 'https://ssl.gstatic.com/docs/documents/images/kix-favicon-2023q4.ico';
+    document.getElementsByTagName('head')[0].appendChild(l);
+    document.title = 'Untitled document - Google Docs';
+}
+
+
+
+</script>
+
+</div>
+<footer>
+    <script type="text/javascript">
+    atOptions = {
+        'key' : '5ae89674ecae6055b904cff1c662ec67',
+        'format' : 'iframe',
+        'height' : 300,
+        'width' : 160,
+        'params' : {}
+    };
+</script>
+<script type="text/javascript" src="//www.topcreativeformat.com/5ae89674ecae6055b904cff1c662ec67/invoke.js"></script>
+    <div>
+        <a href="https://discord.gg/solstice">Discord</a>
+        <a href="https://github.com/ClarrieO5/iconical2">Github</a>
+    </div>
+    <div>
+        <span>Solstice &copy; 2024</span>
+    </div>
+</footer>
+<!-- Particle.js library -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+    particlesJS("particles-js", {
+        "particles": {
+            "number": {
+                "value": 80,
+                "density": {
+                    "enable": true,
+                    "value_area": 800
+                }
+            },
+            "color": {
+                "value": "#ffffff"
+            },
+            "shape": {
+                "type": "circle",
+                "stroke": {
+                    "width": 0,
+                    "color": "#000000"
+                },
+                "polygon": {
+                    "nb_sides": 5
+                },
+                "image": {
+                    "src": "img/github.svg",
+                    "width": 100,
+                    "height": 100
+                }
+            },
+            "opacity": {
+                "value": 0.5,
+                "random": false,
+                "anim": {
+                    "enable": false,
+                    "speed": 1,
+                    "opacity_min": 0.1,
+                    "sync": false
+                }
+            },
+            "size": {
+                "value": 3,
+                "random": true,
+                "anim": {
+                    "enable": false,
+                    "speed": 40,
+                    "size_min": 0.1,
+                    "sync": false
+                }
+            },
+            "line_linked": {
+                "enable": true,
+                "distance": 150,
+                "color": "#ffffff",
+                "opacity": 0.4,
+                "width": 1
+            },
+            "move": {
+                "enable": true,
+                "speed": 6,
+                "direction": "none",
+                "random": false,
+                "straight": false,
+                "out_mode": "out",
+                "bounce": false,
+                "attract": {
+                    "enable": false,
+                    "rotateX": 600,
+                    "rotateY": 1200
+                }
+            }
+        },
+        "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+                "onhover": {
+                    "enable": true,
+                    "mode": "grab"
+                },
+                "onclick": {
+                    "enable": true,
+                    "mode": "push"
+                },
+                "resize": true
+            },
+            "modes": {
+                "grab": {
+                    "distance": 140,
+                    "line_linked": {
+                        "opacity": 1
+                    }
+                },
+                "bubble": {
+                    "distance": 400,
+                    "size": 40,
+                    "duration": 2,
+                    "opacity": 8,
+                    "speed": 3
+                },
+                "repulse": {
+                    "distance": 200,
+                    "duration": 0.4
+                },
+                "push": {
+                    "particles_nb": 4
+                },
+                "remove": {
+                    "particles_nb": 2
+                }
+            }
+        },
+        "retina_detect": true
+    });
+
+    document.getElementById("uv-form").addEventListener("submit", function(event) {
+        event.preventDefault();
+        var searchText = document.getElementById("uv-address").value;
+        if (isValidURL(searchText)) {
+            window.location.href = __uv$config.prefix + __uv$config.encodeUrl(searchText.startsWith("http") ? searchText : "https://" + searchText)
+        } else {
+            var searchEngine = document.getElementById("uv-search-engine").value;
+            var searchUrl = searchEngine.replace("%s", encodeURIComponent(searchText));
+            window.location.href = __uv$config.prefix + __uv$config.encodeUrl(searchUrl);
+        }
+    });
+
+    function isValidURL(string) {
+        try {
+            new URL(string);
+        } catch (_) {
+            return false;
+        }
+        return true;
+    }
+</script>
+<script type='text/javascript' src='//pl23320588.highcpmgate.com/94/bb/fb/94bbfb61275d8a86a638c866e83092a2.js'></script>
+</body>
+</html>
