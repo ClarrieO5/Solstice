@@ -31,6 +31,23 @@ const server = createServer();
 server.on("request", (req, res) => {
   res.setHeader("Cross-Origin-Opener-Policy", "same-origin");
   res.setHeader("Cross-Origin-Embedder-Policy", "require-corp");
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
+
+  if (req.method === 'OPTIONS') {
+    res.writeHead(204);
+    res.end();
+    return;
+  }
+
+  if (req.url.includes("www.topcreativeformat.com")) { 
+    res.setHeader("Access-Control-Allow-Origin", "https://www.topcreativeformat.com"); 
+  }
+
+  if (req.url.includes("pl23320588.highcpmgate.com")) { 
+    res.setHeader("Access-Control-Allow-Origin", "https://pl23320588.highcpmgate.com"); 
+  }
 
   if (bareServer.shouldRoute(req)) {
     bareServer.routeRequest(req, res); // Route through bare server if applicable
