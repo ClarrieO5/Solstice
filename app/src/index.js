@@ -1,6 +1,6 @@
 import express from "express";
 import { createServer } from "node:http";
-import { publicPath } from "./app/static/lib/index.js";
+import { publicPath } from "../static/lib/index.js";
 import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
 import { epoxyPath } from "@mercuryworkshop/epoxy-transport";
 import { baremuxPath } from "@mercuryworkshop/bare-mux";
