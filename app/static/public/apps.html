@@ -10,7 +10,7 @@
     <meta name="theme-color" content="#222831">
     <meta name="googlebot" content="index, follow, snippet">
     <meta name="robots" content="index, follow">
-    <title>Solstice - Free Frontend Proxy</title>
+    <title>Solstice - Apps</title>
     <link rel="shortcut icon" href="https://raw.githubusercontent.com/ClarrieO5/photo/main/favicon%20(2).ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -94,28 +94,6 @@
             font-size: 1.5em;
             margin-bottom: 20px;
         }
-        .search-container {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-        }
-        .search-container input[type="text"] {
-            padding: 10px;
-            width: 600px;
-            border: 1px solid #f39c12; /* Orange border */
-            border-radius: 25px 0 0 25px;
-            outline: none;
-            background-color: #222831; /* Dark background */
-            color: #fff;
-        }
-        .search-container input[type="submit"] {
-            padding: 10px 20px;
-            background-color: #f39c12; /* Orange background */
-            border: none;
-            border-radius: 0 25px 25px 0;
-            color: #fff;
-            cursor: pointer;
-        }
         .content {
             margin-top: 20px;
             border-radius: 20px;
@@ -126,11 +104,10 @@
             margin-left: auto;
             text-align: center; /* Center text */
         }
-        .quote {
-            font-style: italic;
+        .coming-soon {
+            font-size: 2em;
             color: #f39c12; /* Orange color */
             margin-top: 20px;
-            text-align: center;
         }
         footer {
             position: fixed;
@@ -173,18 +150,8 @@
         </div>
     </header>
     <main>
-        <h1 class="title">Solstice</h1>
-        <p class="description">Your free, fast, and secure web proxy solution</p>
-        <div class="search-container">
-            <form id="uv-form">
-                <input id="uv-address" type="text" placeholder="Enter URL or search query">
-                <input type="submit" value="Go">
-            </form>
-        </div>
-        <div class="content">
-            <p id="random-message">Loading...</p>
-            <p id="random-quote" class="quote"></p>
-        </div>
+        <h1 class="title">Apps</h1>
+        <p class="coming-soon">Coming Soon</p>
     </main>
     <footer>
         <div>
@@ -193,45 +160,5 @@
         </div>
         <div>Solstice &copy; 2024</div>
     </footer>
-    <script>
-        var messages = [
-            "Welcome to Solstice!",
-            "Browse the web securely with Solstice.",
-            "Access blocked content easily!",
-            "Made by @screwedover1",
-            "Protect your privacy online.",
-            "Solstice - Your gateway to the internet!",
-            "Fast, free, and reliable web proxy."
-        ];
-
-        var quotes = [
-            '"I want a shoot out" - Onyc.',
-            '"Ohio skibidi gyatt rizzler" - casen.',
-            '"To eat or not to eat, that is the question." - Yeti101'
-        ];
-
-        function displayRandomMessage() {
-            var randomIndex = Math.floor(Math.random() * messages.length);
-            document.getElementById("random-message").textContent = messages[randomIndex];
-        }
-
-        function displayRandomQuote() {
-            var randomIndex = Math.floor(Math.random() * quotes.length);
-            document.getElementById("random-quote").textContent = quotes[randomIndex];
-        }
-
-        document.addEventListener("DOMContentLoaded", function() {
-            displayRandomMessage();
-            displayRandomQuote();
-        });
-
-        document.getElementById('uv-form').addEventListener('submit', function(event) {
-            event.preventDefault();
-            var address = document.getElementById('uv-address').value.trim();
-            if (address) {
-                window.location.href = '/uv.html#' + address;
-            }
-        });
-    </script>
 </body>
 </html>
