@@ -2,117 +2,152 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    overflow-x: hidden;
-    background-color: #111;
+    background: linear-gradient(135deg, #f39c12, #e74c3c, #8e44ad); /* Gradient background */
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 60px; /* Space for footer */
 }
 
-.container {
-    width: 80%;
-    margin: 100px auto;
-    text-align: center;
-    position: relative;
-    z-index: 1;
-    background-image: url('https://github.com/ClarrieO5/photo/blob/main/A%20futuristic%20ci%2076ad2c1f-f89a-4eaf-9b18-1d69bb1b67d6.png?raw=true');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 50px;
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+header {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(57, 62, 70, 0.9); /* Slightly transparent background */
+    display: flex;
+    justify-content: center; /* Center the nav-buttons container */
+    align-items: center; /* Center elements vertically */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 20px 20px; /* Rounded corners */
 }
 
-h1 {
-    font-size: 5em;
-    margin-bottom: 30px;
-    color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+header img {
+    height: 50px;
+    border-radius: 40px;
+    border: 1px solid #f39c12;
+    margin-right: 10px; /* Add margin to separate from the buttons */
 }
 
-.discord-link {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 16px;
+.nav-buttons {
+    display: flex;
+    gap: 0px; /* Space between buttons */
+    align-items: center; /* Align items vertically */
+}
+
+.nav-button {
     color: #fff;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
     text-decoration: none;
-    background-color: #7289da;
-    padding: 8px 16px;
-    border-radius: 20px;
-    cursor: pointer;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 18px;
+    display: flex;
+    align-items: center; /* Align text and icon vertically */
+    transition: background-color 0.3s ease;
 }
 
-.desc {
-    color: #fff;
-    font-size: 1.2em;
+.nav-button:hover {
+    background-color: #b3610a; /* Darker background color on hover */
+}
+
+.nav-button i {
+    font-size: 1.8em;
+    margin-right: 10px; /* Space between icon and text */
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(57, 62, 70, 0.9); /* Darker background with transparency */
+    margin-top: 20px; /* Reduced spacing from header */
+    margin-bottom: 10px; /* Spacing from footer */
+}
+
+.title {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #f39c12; /* Orange color */
+    font-family: 'Comic Sans MS', cursive; /* Comic Sans font */
+}
+
+.description {
+    font-size: 1.5em;
     margin-bottom: 20px;
 }
 
-#uv-address {
-    padding: 10px;
-    width: 60%;
-    border-radius: 25px;
-    border: none;
-    font-size: 16px;
-    margin-right: 5px;
-    box-sizing: border-box;
-}
-
-#uv-form {
+.search-container {
+    display: flex;
+    justify-content: center;
     margin-top: 20px;
 }
 
-input[type="submit"] {
-    padding: 10px 20px;
-    background-color: #7289da;
+.search-container input[type="text"] {
+    padding: 10px;
+    width: 500px;
+    border: 1px solid #f39c12; /* Orange border */
+    border-radius: 25px 0 0 25px;
+    outline: none;
+    background-color: #222831; /* Dark background */
     color: #fff;
+}
+
+.search-container select {
+    padding: 10px;
+    border: 1px solid #f39c12; /* Orange border */
+    border-radius: 0;
+    outline: none;
+    background-color: #222831; /* Dark background */
+    color: #fff;
+}
+
+.search-container input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #f39c12; /* Orange background */
     border: none;
-    border-radius: 25px;
+    border-radius: 0 25px 25px 0;
+    color: #fff;
     cursor: pointer;
-    font-size: 16px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.content {
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: rgba(34, 40, 49, 0.3); /* Transparent dark background */
+    padding: 20px;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center; /* Center text */
+}
+
+.quote {
+    font-style: italic;
+    color: #f39c12; /* Orange color */
+    margin-top: 20px;
+    text-align: center;
 }
 
 footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #222;
+    background-color: rgba(57, 62, 70, 0.9); /* Slightly transparent background */
     color: #fff;
     padding: 10px 0;
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
     text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px 20px 0 0; /* Rounded top corners */
 }
 
-footer div {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-footer div a {
-    color: #fff;
+footer a {
+    color: #f39c12; /* Orange color */
     text-decoration: none;
     margin: 0 10px;
-    border-bottom: 1px solid #fff;
 }
-
-footer > div:last-child {
-    margin-top: 10px;
-}
-
-#particles-js {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    z-index: -1;
-}
-
