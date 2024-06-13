@@ -15,6 +15,7 @@
     "@titaniumnetwork-dev/ultraviolet": "^3.1.2",
     "@tomphttp/bare-server-node": "^2.0.3",
     "express": "^4.17.1",
+    "uv-app": "file:app",
     "wisp-server-node": "^1.1.0"
   },
   "keywords": []
