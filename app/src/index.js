@@ -29,11 +29,11 @@ app.use((req, res) => {
 const server = createServer();
 
 server.on("request", (req, res) => {
-  res.setHeader("Cross-Origin-Opener-Policy", "same-origin");
-  res.setHeader("Cross-Origin-Embedder-Policy", "unsafe-none");
-  res.setHeader("Access-Control-Allow-Origin", "*");
-  res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
-  res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
+//  res.setHeader("Cross-Origin-Opener-Policy", "same-origin");
+//  res.setHeader("Cross-Origin-Embedder-Policy", "unsafe-none");
+//  res.setHeader("Access-Control-Allow-Origin", "*");
+//  res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
+//  res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
 
   if (req.method === 'OPTIONS') {
     res.writeHead(204);
