@@ -102,9 +102,17 @@
         }
         .search-container input[type="text"] {
             padding: 10px;
-            width: 600px;
+            width: 500px;
             border: 1px solid #f39c12; /* Orange border */
             border-radius: 25px 0 0 25px;
+            outline: none;
+            background-color: #222831; /* Dark background */
+            color: #fff;
+        }
+        .search-container select {
+            padding: 10px;
+            border: 1px solid #f39c12; /* Orange border */
+            border-radius: 0;
             outline: none;
             background-color: #222831; /* Dark background */
             color: #fff;
@@ -177,8 +185,9 @@
         <h1 class="title">Solstice</h1>
         <p class="description">Your free, fast, and secure web proxy solution</p>
         <div class="search-container">
-            <form id="uv-form">
-                <input id="uv-address" type="text" placeholder="Enter URL or search query">
+            <form id="uv-form" class="flex-center">
+                <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden">
+                <input id="uv-address" type="text" placeholder="Search with UV">
                 <input type="submit" value="Go">
             </form>
         </div>
@@ -194,6 +203,7 @@
         </div>
         <div>Solstice &copy; 2024</div>
     </footer>
+    <script src="app/static/public/uv/uv.config.js"></script> <!-- Link the config file here -->
     <script>
         var messages = [
             "Welcome to Solstice!",
@@ -208,7 +218,7 @@
         var quotes = [
             '"I want a shoot out" - Onyc.',
             '"Ohio skibidi gyatt rizzler" - casen.',
-            '"To eat or not to eat, that is the question." - Yeti101'
+            '"To eat or not to eat, that is the question." - Yeti1o1'
         ];
 
         function displayRandomMessage() {
@@ -221,18 +231,29 @@
             document.getElementById("random-quote").textContent = quotes[randomIndex];
         }
 
-        document.addEventListener("DOMContentLoaded", function() {
-            displayRandomMessage();
-            displayRandomQuote();
-        });
-
-        document.getElementById('uv-form').addEventListener('submit', function(event) {
+        document.getElementById("uv-form").addEventListener("submit", function(event) {
             event.preventDefault();
-            var address = document.getElementById('uv-address').value.trim();
-            if (address) {
-                window.location.href = '/uv.html#' + address;
+            var searchText = document.getElementById("uv-address").value;
+            if (isValidURL(searchText)) {
+                window.location.href = __uv$config.prefix + __uv$config.encodeUrl(searchText.startsWith("http") ? searchText : "https://" + searchText);
+            } else {
+                var searchEngine = document.getElementById("uv-search-engine").value;
+                var searchUrl = searchEngine.replace("%s", encodeURIComponent(searchText));
+                window.location.href = __uv$config.prefix + __uv$config.encodeUrl(searchUrl);
             }
         });
+
+        function isValidURL(string) {
+            try {
+                new URL(string);
+            } catch (_) {
+                return false;
+            }
+            return true;
+        }
+
+        displayRandomMessage();
+        displayRandomQuote();
     </script>
 </body>
 </html>
