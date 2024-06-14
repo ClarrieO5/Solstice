@@ -1,0 +1,677 @@
+[33mcommit 3f9cb30f066f0a04dff1328a89364b10c94711e3[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri Jun 14 08:09:36 2024 +1000
+
+    Added ad
+
+[33mcommit b1c23260401f445191f8938c031aa3ae79c02ea3[m
+Author: ClarrieO5 <clarrieohare@gmail.com>
+Date:   Thu Jun 13 18:07:32 2024 -0400
+
+    revert revert
+
+[33mcommit d92f92f5bdb30b4984c8625d7b17a2548ad9d063[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri Jun 14 08:04:41 2024 +1000
+
+    Revert revert
+
+[33mcommit fee539456c8f66e987a2f165a9958e8389ec5f9b[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri Jun 14 08:03:51 2024 +1000
+
+    Revert revert
+
+[33mcommit 63a611d51708c028a1c28773ce21a10c4d4bfaad[m
+Author: ClarrieO5 <clarrieohare@gmail.com>
+Date:   Thu Jun 13 17:55:10 2024 -0400
+
+    add solstice/go/ path
+
+[33mcommit 41629366c0024959f1555b70543fff38fdb1d9ef[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Thu Jun 13 20:12:51 2024 +1000
+
+    Update uv.config.js
+
+[33mcommit c9cc4791150848d6c8ab54ebc9d7ed47156b8f85[m
+Author: ClarrieO5 <clarrieohare@gmail.com>
+Date:   Thu Jun 13 06:11:34 2024 -0400
+
+    node_modules update
+
+[33mcommit 875de4847e1fc8bcdef88225acd37236ad3c48c8[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Thu Jun 13 20:08:28 2024 +1000
+
+    uv/service -> solstice/go
+
+[33mcommit 37bbf1c9efdda25abcff17c8910a62ef300dbb7b[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Thu Jun 13 20:04:06 2024 +1000
+
+    Shorten code link to  scripts.js
+
+[33mcommit b61af23c6aaf3e00db74c734456c786ad0d4e2e2[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Thu Jun 13 20:03:22 2024 +1000
+
+    Create scripts.js
+
+[33mcommit 682221ff3656a06842f077161f5a5880128bc225[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Thu Jun 13 20:00:03 2024 +1000
+
+    Added CSS styling
+
+[33mcommit 51f8fb2f79ea7d3fbc417652632fa9d9c7a3b7cd[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Thu Jun 13 19:58:32 2024 +1000
+
+    Shortened code and linked to a seperate css
+
+[33mcommit 54f7702d67417f71608cbf415e67b0f9f3f7442d[m
+Author: ClarrieO5 <clarrieohare@gmail.com>
+Date:   Thu Jun 13 17:39:46 2024 +1000
+
+    fixed a lot of stuff
+
+[33mcommit 0b2a143734389e26a8407c5e6a2d3a91f4711cd3[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Thu Jun 13 05:05:07 2024 +0000
+
+    Fixed an issue in the index.html
+
+[33mcommit b5fd7e5d7feeb4ef6c18f7fed4a46090ccd70517[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Tue Jun 11 21:40:36 2024 +1000
+
+    Update index.html
+
+[33mcommit 6ff34341d3c881af303be3e4642dd5c0077513bb[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Tue Jun 11 21:39:16 2024 +1000
+
+    Update index.html
+
+[33mcommit 0d821031f0435bd9d54fda767fcba5cf16bf2ba5[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Tue Jun 11 21:32:59 2024 +1000
+
+    Favicon
+
+[33mcommit 55a968ce05098cb7f8a63b423177ff400d5e18af[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Tue Jun 11 21:27:19 2024 +1000
+
+    Add favicon
+
+[33mcommit 5174172bd2432f0c4ca28a918a0b886aa2ae6c63[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Tue Jun 11 18:54:24 2024 +1000
+
+    Site makeover
+
+[33mcommit 351da7663a47fb82338d89444488ffc3907f6f4e[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Tue Jun 11 18:51:55 2024 +1000
+
+    New makeover for site
+
+[33mcommit c15cda3afc7cb73ce3727e8ae35f6f7ad48b9e5d[m
+Merge: dc3a20c 28efafe
+Author: ClarrieO5 <clarrieohare@gmail.com>
+Date:   Sun Jun 9 20:50:54 2024 -0400
+
+    Merge branch 'master' of https://github.com/ClarrieO5/scammer
+    Added favicon
+
+[33mcommit 28efafe50179495675a2a79b3e9ddec3fc9ee874[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Mon Jun 10 10:36:05 2024 +1000
+
+    Rename 128.ico to favicon.ico
+
+[33mcommit 1e6090f97c649a1e46a8e89d58ebd913f9a610c6[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Mon Jun 10 10:35:23 2024 +1000
+
+    Add favicon.ico (Solstice)
+
+[33mcommit 3b2607b3be87b262f9db677af57d4f3d462f058d[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Mon Jun 10 10:34:55 2024 +1000
+
+    delete favicon.ico (Ultraviolet)
+
+[33mcommit f4925c2ac2c8834d3998ffbf50b6527c245951f3[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Mon Jun 10 10:34:15 2024 +1000
+
+    Delete app/static/public/uv.png
+
+[33mcommit 6f0598ee815eddca3b15330f526b93832d8042e8[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Mon Jun 10 10:33:52 2024 +1000
+
+    Rename 128.ico to uv.png
+
+[33mcommit a5bae6d8a8567f5c4bfaf62c260ae05625f7d233[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Mon Jun 10 10:32:07 2024 +1000
+
+    New Favicon
+
+[33mcommit d85886717bcf37317fe5c403bc6150d757011237[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Mon Jun 10 10:31:33 2024 +1000
+
+    delete smthing
+
+[33mcommit dc3a20caae4a2a3f39ec0325177e7ff0abdb5e12[m
+Merge: e2be9dd 58c56fe
+Author: ClarrieO5 <clarrieohare@gmail.com>
+Date:   Sun Jun 9 02:44:00 2024 -0400
+
+    Merge branch 'master' of https://github.com/ClarrieO5/scammer
+    Good
+
+[33mcommit 58c56fe83c224286280fae87195dd1b50f6a2bc5[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Sun Jun 9 16:42:20 2024 +1000
+
+    Added Background Changes To Site
+
+[33mcommit 6b0e192307d2bb77b67ded0f6160f94e0ec1259f[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Sun Jun 9 16:05:11 2024 +1000
+
+    New Background
+
+[33mcommit e2be9dd9383422aaeaf086251e24c26ed54be34f[m
+Merge: 199a0be 27915b1
+Author: ClarrieO5 <clarrieohare@gmail.com>
+Date:   Sun Jun 9 01:10:19 2024 -0400
+
+    Merge branch 'master' of https://github.com/ClarrieO5/scammer
+    Made changes to index.html (added     <meta name="robots" content="index, follow">)
+
+[33mcommit 27915b1b47fb030376f21d801a9ba65781810109[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Sun Jun 9 15:06:32 2024 +1000
+
+    Made it visible on search engines
+
+[33mcommit 199a0be9ff5e4e03197b0fa24ebb914b8b2adc3a[m
+Merge: faa70ec 626a784
+Author: ClarrieO5 <clarrieohare@gmail.com>
+Date:   Thu Jun 6 18:25:17 2024 -0400
+
+    Merge branch 'master' of https://github.com/ClarrieO5/scammer
+    This commit will fix the ads issue
+
+[33mcommit faa70ec6a85f2adbe6d83ee7b1d5198b497a71b8[m
+Author: ClarrieO5 <clarrieohare@gmail.com>
+Date:   Thu Jun 6 18:14:59 2024 -0400
+
+    Ads fix
+
+[33mcommit 626a7842eadfd82774fe7285390b05855bd694af[m
+Author: paultelper <120200084+paultelper@users.noreply.github.com>
+Date:   Thu Jun 6 21:39:56 2024 +0300
+
+    Update index.js
+
+[33mcommit 32a33d7dabb51549248d29a0f7750d5a3f6ed64b[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Thu Jun 6 08:26:31 2024 +1000
+
+    Update index.js
+
+[33mcommit 8ac37f36bc3bedad3fa57369462e2977fb0e3eed[m
+Author: paultelper <120200084+paultelper@users.noreply.github.com>
+Date:   Tue May 28 19:19:07 2024 +0300
+
+    Update1 index.js
+    
+    Try using this fix, as to make COEP/CORS less restrictive
+
+[33mcommit f83f9bfed8ac3f365bbed0b0f1550e962b031339[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Thu May 23 07:35:18 2024 +0000
+
+    Your commit message here
+
+[33mcommit dd4ee8d1d6c87767f97b388deea087b106b0a780[m
+Merge: c8107d4 3c1065a
+Author: ClarrieO5 <clarrieohare@gmail.com>
+Date:   Thu May 23 02:13:37 2024 -0400
+
+    Merge branch 'master' of https://github.com/ClarrieO5/solstice
+
+[33mcommit 3c1065a8c30f6b6333071e45b78e1e1eeceafe8d[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Thu May 23 16:13:16 2024 +1000
+
+    Added ad
+
+[33mcommit c8107d4314b8bb3557206325cfe4e494a597072c[m
+Merge: b343003 7d8d04e
+Author: ClarrieO5 <clarrieohare@gmail.com>
+Date:   Wed May 22 03:40:09 2024 -0400
+
+    Merge branch 'master' of https://github.com/ClarrieO5/solstice
+    Adding Ads
+
+[33mcommit b343003dfd43343be152a0270afc674d2520b251[m
+Author: ClarrieO5 <clarrieohare@gmail.com>
+Date:   Wed May 22 03:38:00 2024 -0400
+
+    Adding Ads
+
+[33mcommit 7d8d04e5d938092e73d2ede73e0804feb3af6cd9[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Wed May 22 17:09:19 2024 +1000
+
+    Added an ad
+
+[33mcommit 20cee051fd4027ae4cd43400b208a2bc8f727fdd[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Wed May 15 12:02:25 2024 +1000
+
+    Change directory names
+
+[33mcommit 23102dc308b1f573bb7292d3a40ced5578550876[m
+Author: isaacfonner <61657908+isaacfonner@users.noreply.github.com>
+Date:   Sun May 12 01:49:19 2024 +0000
+
+    Implemented Settings and Tab Cloak
+
+[33mcommit a8718970d7076d31980dfbb8f2228da3a8794c4a[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Sun May 12 11:46:59 2024 +1000
+
+    Double revert
+
+[33mcommit 049c360337e6393db00d58fc697fbccad7772411[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Sun May 12 00:14:37 2024 +1000
+
+    Reverting back
+
+[33mcommit d885b8fb797579311817ae9bf9a81ab4bfe1b1e9[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Sun May 12 00:11:34 2024 +1000
+
+    Update index.html
+
+[33mcommit dd825d4fe6854ffdd1f09c5c5b5164f122a7b441[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Sun May 12 00:10:03 2024 +1000
+
+    Hopefully done now
+
+[33mcommit d323c5c4f13dfc0866c6c5e95679b0ea3071028c[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Sun May 12 00:03:32 2024 +1000
+
+    Tryna fix about blank cloaker
+
+[33mcommit 89ba5fb55a6e45c226ff5127aed82e79482ee3b0[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Sat May 11 23:46:06 2024 +1000
+
+    Removed alert
+    
+    Caused a bug
+
+[33mcommit be3fdc60479106e30dfb3b9c0238c9b6565d7fa6[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Sat May 11 23:43:56 2024 +1000
+
+    Added a please allow popups error
+
+[33mcommit 5994274fa5a023f9620f447a0a192fd6546ba7e1[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Sat May 11 23:41:39 2024 +1000
+
+    Fixed about:blank launcher
+
+[33mcommit 493ee98ce779157d43bc22095ab40a66be63dc02[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Sat May 11 23:34:54 2024 +1000
+
+    Added about blank site launcher
+
+[33mcommit 85be487dda271a60adfef5c0b036806ed7d86469[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Sat May 11 23:31:31 2024 +1000
+
+    Added about blank launcher
+
+[33mcommit 0facd0e020e6ed09cb043071782f35c9844bdcde[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Sat May 11 23:23:13 2024 +1000
+
+    Added about blank button
+
+[33mcommit 8b5450163678dd929be3efa2617b89b9ec040739[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Sat May 11 22:54:33 2024 +1000
+
+    Fixing particles container issue
+
+[33mcommit 0b8d3c8bc660251ab6847e8daaa1cea153b7f530[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Sat May 11 22:46:10 2024 +1000
+
+    Particle container update
+
+[33mcommit 356f88c98a805cc1252d1d9584975ba6f5bc4fee[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Sat May 11 12:39:56 2024 +1000
+
+    Trying to fix particles issue
+
+[33mcommit 46423def781c6e8c908b3bd112cc122c5681794b[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Sat May 11 12:26:23 2024 +1000
+
+    Create README.md
+
+[33mcommit 3b39cb55d909a33b61a472e8e586f7f60fa5a1b8[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Sat May 11 10:49:45 2024 +1000
+
+    Update index.html
+
+[33mcommit 352eba78baa7176d35e24835888b7455b21c0275[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Sat May 11 10:47:13 2024 +1000
+
+    Update index.html
+
+[33mcommit a0c93d76d376399d4f3a03d3c56ee3aa15a2de80[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Sat May 11 10:43:56 2024 +1000
+
+    Update index.html
+
+[33mcommit 95e86c3a731732ae3155d470df652063a3ac26b9[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Sat May 11 10:43:13 2024 +1000
+
+    Update index.html
+
+[33mcommit e9607ab7776141fdd8e5b614f571ca02cc782ba6[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Sat May 11 10:41:14 2024 +1000
+
+    Update index.html
+
+[33mcommit 8947b8d7546ec154058ae264ea60196f79bdb568[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Sat May 11 10:36:43 2024 +1000
+
+    Update index.html
+
+[33mcommit a45811149ec159556403579f5965d395bf56cf30[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 20:25:11 2024 +1000
+
+    Update index.html
+
+[33mcommit 244e8eacdd24da68cf9f92b15da3b174fac9559d[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 20:23:30 2024 +1000
+
+    Update index.html
+
+[33mcommit 67cd1f11402442ec8d8d9a77d4811f1cf8a77c81[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 16:30:45 2024 +1000
+
+    Preventing scrolling down so it looks tidyer
+
+[33mcommit 1a8d4136473a834f8253e2f6b5c29402a40be060[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 16:27:36 2024 +1000
+
+    Added background
+
+[33mcommit c9a5d3b0b0d04621d404ecbd5317d09c5384cf2a[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 16:25:37 2024 +1000
+
+    Update index.html
+
+[33mcommit f35aec400531195daf4b59dcf7c683c55382a2dd[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 16:23:41 2024 +1000
+
+    Update index.html
+
+[33mcommit 0e18036ba6ae8334359b5eb3ee79c5b397b0c869[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 16:22:43 2024 +1000
+
+    Moving container down
+
+[33mcommit bb8d33be7e9863cafa68906c52959ba8095ba58b[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 16:19:26 2024 +1000
+
+    Removed code for verification
+
+[33mcommit 51cfb77aee5912df7b717a4e273b0def198703f9[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 16:18:09 2024 +1000
+
+    Update index.html
+
+[33mcommit cf89c5dc32a285404201c059c14e1f796c9a66ec[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 16:13:34 2024 +1000
+
+    Update index.html
+
+[33mcommit e4318bc021e6810d82c4f273c20664fcd4334055[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 16:08:54 2024 +1000
+
+    Update index.html
+
+[33mcommit 60e127c6a0f091e912e17db973394e99a3e45874[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 11:36:48 2024 +1000
+
+    Update index.html
+
+[33mcommit 373e41e3a8dcad77e86abf4ef5073d0fe49b69ef[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 11:35:27 2024 +1000
+
+    Update index.html
+
+[33mcommit 54e0511e9ec49966f94768cdb80b5e75b4764606[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 11:32:24 2024 +1000
+
+    add change
+
+[33mcommit 41b631902d700872ca0a6be72521caa72907c682[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 11:28:34 2024 +1000
+
+    Added ad to a better spot
+
+[33mcommit 1678d4b1359f7395536cf5264205a9c0a4dff165[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 11:26:40 2024 +1000
+
+    Moved ad
+
+[33mcommit b1dc2c9ef17cf3527b361bf1374ff3bbd8db69d5[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 11:13:08 2024 +1000
+
+    Ad one
+
+[33mcommit 7a44e58e940419c5a8da2b0c41cf82482d0790a8[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 11:05:24 2024 +1000
+
+    I think ads are gone (for now)
+
+[33mcommit 6ac96ce095ad55fe7b6d9caf898d2385a3e83ba2[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 11:00:50 2024 +1000
+
+    Update index.html
+
+[33mcommit 9a6a530da44e80175b1771fb6d236f4bcfef4d24[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 10:56:04 2024 +1000
+
+    Removed Ads Adding them back in in a sec
+
+[33mcommit 41f237faec981addb01db9bdb2d3d538d163893f[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 01:13:56 2024 +1000
+
+    Update index.html
+
+[33mcommit 9393ee427ffeb6a614d3902a7a590ee017e8f032[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 01:11:48 2024 +1000
+
+    Update index.html
+
+[33mcommit 24650386b6ca6fc8a93bc6e779ad6ce1f6bacef6[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 01:09:37 2024 +1000
+
+    Update index.html
+
+[33mcommit 3c6680f5d56b2ea8ba7440aa5e07d63aa65b30fa[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 01:01:35 2024 +1000
+
+    Update index.html
+
+[33mcommit 81deb0e3f9a561ca59079f3aef2bca5e3b83021f[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 00:48:34 2024 +1000
+
+    \
+
+[33mcommit e24486147077291e07aee3fa68ce13741658d726[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 00:43:11 2024 +1000
+
+    Added ads in the site is pretty much fixed now
+
+[33mcommit 7a7b1a2400db301ca2eac249dc74d3df96e9c0fb[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 00:25:41 2024 +1000
+
+    broken still Lsob:
+
+[33mcommit bb990669fff3079054c82ddaf50a6ac7ff07be46[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 00:19:22 2024 +1000
+
+    failed before still working on logo and background
+
+[33mcommit 769d604ca8386b10757f9c96d335e335e78445cf[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 00:15:22 2024 +1000
+
+    Added ads and fixed logo and background hopefully
+
+[33mcommit 0479d4b56b2ad6b5099ac4accd162fec5fd6b46e[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 00:06:11 2024 +1000
+
+    playing with logo again
+
+[33mcommit 9c39fdd54cef8886fa3bb29b89cc92b6b04db3b3[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Fri May 10 00:01:55 2024 +1000
+
+    Update index.html
+    
+    Added cool background
+
+[33mcommit 14692520fd4521e52e9e5f7f27706c7b9600067c[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Thu May 9 23:59:15 2024 +1000
+
+    Add files via upload
+
+[33mcommit 143f8e45202737e0fed4e8983f44d7a4ad57a6e0[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Thu May 9 23:56:19 2024 +1000
+
+    Update index.html
+    
+    More logo moving
+
+[33mcommit 44ecacb1f84905b9c17982117bf4739a7ad065a8[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Thu May 9 23:51:46 2024 +1000
+
+    Update index.html
+    
+    Changed position of logo
+
+[33mcommit 44be2b5f23c626228bad38aff329ad9a152f25c7[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Thu May 9 23:49:03 2024 +1000
+
+    Update index.html
+    
+    Removed code for ads
+
+[33mcommit 3c9e8ba6ed57c5521b2bf50e01291e2e8cff2dee[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Thu May 9 23:43:49 2024 +1000
+
+    Add files via upload
+
+[33mcommit eaf1557406cb71b0bed39a385c809527215df06f[m
+Author: ClarrieO5 <clarrieohare@gmail.com>
+Date:   Thu May 9 23:17:36 2024 +1000
+
+    for ads
+
+[33mcommit 8b29dc6b23a6feaa9f4e61ec665deb24df6e2056[m
+Author: ClarrieO5 <clarrieohare@gmail.com>
+Date:   Thu May 9 22:56:04 2024 +1000
+
+    Removed bits of code
+
+[33mcommit 1ab28ca62e4965a45973a3847129df1219450371[m
+Merge: bf6992d 8da1c53
+Author: ClarrieO5 <clarrieohare@gmail.com>
+Date:   Thu May 9 17:06:13 2024 +1000
+
+    Resolved merge conflict in index.html
+
+[33mcommit bf6992ddb9db87dc66d5350a5820cc02168a3363[m
+Author: ClarrieO5 <clarrieohare@gmail.com>
+Date:   Thu May 9 17:01:17 2024 +1000
+
+    Committing changes to index.html
+
+[33mcommit 8da1c535ddbc380f4e2060fd65ec05b457c9b770[m
+Author: ClarrieO5 <106720670+ClarrieO5@users.noreply.github.com>
+Date:   Thu May 9 16:47:52 2024 +1000
+
+    Update index.html
+
+[33mcommit aa120551fd79aa1d16944e57aed8e4527f594282[m
+Author: ClarrieO5 <clarrieohare@gmail.com>
+Date:   Mon Apr 29 09:56:43 2024 +1000
+
+    Add ultraviolet-app directory
