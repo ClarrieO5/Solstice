@@ -125,6 +125,13 @@
         .game-link:hover {
             background-color: #b3610a; /* Darker background color on hover */
         }
+        .flash-container {
+            width: 100%;
+            height: 600px; /* Adjust as necessary */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
         footer {
             position: fixed;
             bottom: 0;
@@ -172,14 +179,18 @@
             <div class="game">
                 <img src="path/to/game1/image.jpg" alt="Game 1">
                 <h2 class="game-title">Game 1</h2>
-                <a href="path/to/game1" class="game-link">Play Game 1</a>
+                <div class="flash-container">
+                    <embed src="path/to/game1.swf" width="600" height="400">
+                </div>
             </div>
 
             <!-- Game 2 -->
             <div class="game">
                 <img src="path/to/game2/image.jpg" alt="Game 2">
                 <h2 class="game-title">Game 2</h2>
-                <a href="path/to/game2" class="game-link">Play Game 2</a>
+                <div class="flash-container">
+                    <embed src="path/to/game2.swf" width="600" height="400">
+                </div>
             </div>
 
             <!-- Add more games similarly -->
