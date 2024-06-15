@@ -90,24 +90,40 @@
             color: #f39c12; /* Orange color */
             font-family: 'Comic Sans MS', cursive; /* Comic Sans font */
         }
-        .description {
-            font-size: 1.5em;
-            margin-bottom: 20px;
-        }
-        .content {
+        .games-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
             margin-top: 20px;
-            border-radius: 20px;
+        }
+        .game {
             background-color: rgba(34, 40, 49, 0.3); /* Transparent dark background */
+            border-radius: 20px;
             padding: 20px;
-            max-width: 600px;
-            margin-right: auto;
-            margin-left: auto;
-            text-align: center; /* Center text */
+            width: 300px;
+            text-align: center;
         }
-        .coming-soon {
-            font-size: 2em;
+        .game img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .game-title {
+            font-size: 1.5em;
             color: #f39c12; /* Orange color */
-            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .game-link {
+            text-decoration: none;
+            color: #fff;
+            background-color: #f39c12; /* Orange background */
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .game-link:hover {
+            background-color: #b3610a; /* Darker background color on hover */
         }
         footer {
             position: fixed;
@@ -151,7 +167,23 @@
     </header>
     <main>
         <h1 class="title">Games</h1>
-        <p class="coming-soon">Coming Soon</p>
+        <div class="games-container">
+            <!-- Game 1 -->
+            <div class="game">
+                <img src="path/to/game1/image.jpg" alt="Game 1">
+                <h2 class="game-title">Game 1</h2>
+                <a href="path/to/game1" class="game-link">Play Game 1</a>
+            </div>
+
+            <!-- Game 2 -->
+            <div class="game">
+                <img src="path/to/game2/image.jpg" alt="Game 2">
+                <h2 class="game-title">Game 2</h2>
+                <a href="path/to/game2" class="game-link">Play Game 2</a>
+            </div>
+
+            <!-- Add more games similarly -->
+        </div>
     </main>
     <footer>
         <div>
