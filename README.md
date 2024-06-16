@@ -37,4 +37,4 @@ Escape the mundane and embrace the extraordinary at Solstice! Dive into engaging
 ═══════════ ︽❉︽ 𓆉 ︽❉︽ ═══════════
 
 :star2: Embrace the Solstice Spirit! :star2:
-:rocket: Join Now: https://discord.gg/solstice :rocket:
+:rocket: [Join Now](https://discord.gg/eRKRdPuky4) :rocket:
