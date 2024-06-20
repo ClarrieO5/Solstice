@@ -83,6 +83,7 @@
             background-color: rgba(57, 62, 70, 0.9); /* Darker background with transparency */
             margin-top: 20px; /* Reduced spacing from header */
             margin-bottom: 10px; /* Spacing from footer */
+            width: 90%;
         }
         .title {
             font-size: 3em;
@@ -93,21 +94,25 @@
         .games-container {
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
             gap: 20px;
             margin-top: 20px;
         }
         .game {
-            background-color: rgba(34, 40, 49, 0.3); /* Transparent dark background */
-            border-radius: 20px;
-            padding: 20px;
-            width: 300px;
-            text-align: center;
-        }
+    background-color: rgba(34, 40, 49, 0.3); /* Transparent dark background */
+    border-radius: 20px;
+    padding: 20px;
+    width: 20%;
+    height: 300px;
+    vertical-align: top;
+}
+
+
+
         .game img {
             width: 100%;
             border-radius: 10px;
             margin-bottom: 10px;
+        
         }
         .game-title {
             font-size: 1.5em;
@@ -125,13 +130,7 @@
         .game-link:hover {
             background-color: #b3610a; /* Darker background color on hover */
         }
-        .flash-container {
-            width: 100%;
-            height: 600px; /* Adjust as necessary */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+      
         footer {
             position: fixed;
             bottom: 0;
@@ -177,23 +176,25 @@
         <div class="games-container">
             <!-- Game 1 -->
             <div class="game">
-                <img src="path/to/game1/image.jpg" alt="Game 1">
-                <h2 class="game-title">Game 1</h2>
-                <div class="flash-container">
-                    <embed src="path/to/game1.swf" width="600" height="400">
+                <a href="/cookieclicker">
+
+                <h2 class="game-title">Cookie Clicker</h2>
+                <img src="Cookie.png" width="20%" height="230px">
+                </a>
+                </div>
+            </div>
+        
+        <div class="games-container">
+            <!-- Game 1 -->
+            <div class="game" style="margin-left: 21%; margin-top: -25%;">
+                <a href="/Tetris">
+                <h2 class="game-title">Tetris</h2>
+                <img src="tetris.webp" width="20%" height="230px">
+                </a>
                 </div>
             </div>
 
-            <!-- Game 2 -->
-            <div class="game">
-                <img src="path/to/game2/image.jpg" alt="Game 2">
-                <h2 class="game-title">Game 2</h2>
-                <div class="flash-container">
-                    <embed src="path/to/game2.swf" width="600" height="400">
-                </div>
-            </div>
-
-            <!-- Add more games similarly -->
+         
         </div>
     </main>
     <footer>

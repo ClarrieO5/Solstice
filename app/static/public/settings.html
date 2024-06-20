@@ -125,6 +125,29 @@
             text-decoration: none;
             margin: 0 10px;
         }
+
+.aboutblank {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.aboutblank:hover {
+	background-color:#5cbf2a;
+}
+.aboutblank:active {
+	position:relative;
+	top:1px;
+}
+
+        
     </style>
 </head>
 <body>
@@ -151,7 +174,7 @@
     </header>
     <main>
         <h1 class="title">Settings</h1>
-        <p class="coming-soon">Coming Soon</p>
+        <button class="aboutblank" onclick='javascript: (function () {var url = window.location.href; var urlObj = new window.URL(window.location.href); win = window.open(); win.document.body.style.margin = "0"; win.document.body.style.height = "100vh"; var iframe = win.document.createElement("iframe"); iframe.style.border = "none"; iframe.style.width = "100%"; iframe.style.height = "100%"; iframe.style.margin = "0"; iframe.referrerpolicy = "no-referrer"; iframe.allow = "fullscreen"; iframe.src = url.toString(); win.document.body.appendChild(iframe); var script = win.document.createElement("script"); script.src = "https://3kh0.github.io/js/main.js"; win.document.body.appendChild(script); })();'>About Blank</button>
     </main>
     <footer>
         <div>
