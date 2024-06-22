@@ -152,23 +152,26 @@ footer a {
     margin: 0 10px;
 }
 .aboutblank {
-	background-color:#44c767;
-	border-radius:28px;
-	border:1px solid #18ab29;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #2f6627;
+    background-color: #8e44ad; /* Deep purple */
+    border-radius: 20px;
+    border: 1px solid #6c5ce7; /* Dark purple */
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 8px 36px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627; /* Dark green */
     margin-top: 15px;
 }
+
 .aboutblank:hover {
-	background-color:#5cbf2a;
+    background-color: #9b59b6; /* Lighter shade of purple */
 }
+
 .aboutblank:active {
-	position:relative;
-	top:1px;
+    position: relative;
+    top: 1px;
 }
+
