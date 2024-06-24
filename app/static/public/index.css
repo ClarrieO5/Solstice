@@ -151,6 +151,7 @@ footer a {
     text-decoration: none;
     margin: 0 10px;
 }
+
 .aboutblank {
     background-color: #8e44ad; /* Deep purple */
     border-radius: 20px;
@@ -175,3 +176,31 @@ footer a {
     top: 1px;
 }
 
+.popup-banner {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    background-color: rgba(34, 40, 49, 0.9); /* Slightly transparent dark background */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.popup-banner img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.popup-banner p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.popup-banner:hover {
+    background-color: rgba(34, 40, 49, 1); /* Opaque background on hover */
+}
